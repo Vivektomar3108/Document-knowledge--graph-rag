@@ -1,0 +1,14 @@
+# FastAPI and ASGI server
+fastapi[all]
+python-multipart
+
+# Database
+sqlalchemy[asyncio]
+asyncpg
+psycopg2-binary
+
+# AWS S3
+boto3
+
+# Pydantic settings
+pydantic-settings

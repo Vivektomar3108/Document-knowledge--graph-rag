@@ -1,0 +1,38 @@
+# Virtual environments
+.venv/
+venv/
+
+# Results directories
+"gpt 4o result"
+gpt-4o-mini results/
+results/
+"gemini results"
+"openai results"
+"New Results with gpt 4.1"
+
+# Data directories
+pdfs/
+logs/
+parsed_pdf_content/
+parsed_xml_content/
+xmls/
+temp_uploads/
+partial_graph_processing/
+
+# Python
+__pycache__/
+*.pyc
+*.log
+
+# Cost tracking
+*cost_estimation*
+
+# Environment
+.env
+
+# macOS
+.DS_Store
+
+# Scripts
+restart_agent_api.sh
+restart_api.sh
